@@ -1,0 +1,18 @@
+:root {
+  --font-family: Inter, system-ui, -apple-system, sans-serif;
+  --bg-primary: #0a0e17;
+  --text-primary: #f1f5f9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
